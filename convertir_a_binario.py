@@ -28,5 +28,6 @@ for d in range(contador):
     numero = numero//2
     numeros.append(binario)
 numeros = numeros[::-1]
+numeros = "".join(map(str, numeros))
 # Salidas
-print(f"El número {numeroog} en binario es{numeros}")
+print(f"El número {numeroog} en binario es {numeros}")
