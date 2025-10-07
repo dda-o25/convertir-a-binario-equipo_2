@@ -1,15 +1,32 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Andrés Enrique Jaime de la Rosa 763799  
+
+Emiliano Mayorga Álvarez expediente 764147  
+
+Julieta Núñez Pacheco 764729  
+
+Sol Valeria González Castro 764533  
+
+El propósito de este código es convertir un número a binario
+07/10/2025
 """
 
 # Declaraciones
-CONSTANTE = valor
-
-# Entradas
-entrada = input()
+numero = int(input(""))
+contadornumero = numero
+numeroog = numero
+contador = 0
+numeros = []
 
 # Proceso
-salida = entrada
+while contadornumero> 0:
+    contadornumero = contadornumero//2
+    contador = contador+1
 
+for d in range(contador):
+    binario = numero%2
+    numero = numero//2
+    numeros.append(binario)
+numeros = numeros[::-1]
 # Salidas
-print(salida)
+print(f"El número {numeroog} en binario es{numeros}")
