@@ -19,14 +19,12 @@ contador = 0
 numeros = []
 
 # Proceso
-while contadornumero> 0:
-    contadornumero = contadornumero//2
-    contador = contador+1
-
-for d in range(contador):
+while numero> 0:
     binario = numero%2
     numero = numero//2
     numeros.append(binario)
+
+
 numeros = numeros[::-1]
 numeros = "".join(map(str, numeros))
 # Salidas
