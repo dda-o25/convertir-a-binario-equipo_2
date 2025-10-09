@@ -13,9 +13,7 @@ El propósito de este código es convertir un número a binario
 
 # Declaraciones
 numero = int(input(""))
-contadornumero = numero
 numeroog = numero
-contador = 0
 numeros = []
 
 # Proceso
